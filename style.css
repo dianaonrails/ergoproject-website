@@ -7,6 +7,18 @@ html,body{
 	border-color: #928d8d;
 }
 
+.owl-carousel div h2, .owl-carousel div .textoverlay{
+    position:absolute;
+    color:#FFF;
+   font-size:12px;
+   display:block;
+   top:50%;
+   left: 10%;
+   font-family: 'Fira Sans', sans-serif;
+   font-weight: 500;
+}
+
+
 .navbar{
 	position: fixed;
 	top:0;
@@ -149,11 +161,25 @@ html,body{
 	float: left;
 }
 
+.section .section__service-title{
+	position: absolute;
+	top:30%;
+	left:50%;
+	color:white;
+	transform: translateX(-50%);
+	font-size: 1.5em;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+
 .section .section__service1{
 	background-image: url('images/civil-constructing.jpg');
 	background-size: cover;
 	background-position: 100%;
 	height: 200px;
+	position: relative;
 }
 
 
@@ -162,6 +188,7 @@ html,body{
 	background-size: cover;
 	background-position: 100%;
 	height: 200px;
+	position: relative;
 }
 
 .section .section__service3{
@@ -169,6 +196,7 @@ html,body{
 	background-size: cover;
 	background-position: 100%;
 	height: 200px;
+	position: relative;
 }
 
 .section .section__news{
@@ -210,10 +238,16 @@ html,body{
 	padding: 20px;
 }
 
+.footer .footer__nav{
+	margin-left: 40px;
+}
+
+
 .footer .footer__title{
 	color:gray;
-	font-size: 1em;
+	font-size: 0.7em;
 	text-transform: uppercase;
+	margin-bottom: 15px;
 }
 
 .footer .footer__about-title{
@@ -224,7 +258,30 @@ html,body{
 }
 
 .footer .footer__about-content{
-	font-size: 0.8em;
+	font-size: 0.5em;
 	font-family: 300;
 	color:#F5F5F5;
+}
+
+.footer .footer__info{
+	color:#ECEBEB;
+	font-size: 0.8em;
+	text-align: left;
+	padding-top: 10px;
+}
+
+.footer .footer__address{
+	font-size: 0.8em;
+	color:#ECEBEB;
+}
+
+.footer__numbers{
+	margin-top: 10px;
+}
+
+.footer .footer__phone{
+	font-size: 0.8em;
+	color:#ECEBEB;
+	font-weight: 300;
+	line-height: 1.5;
 }
