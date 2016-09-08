@@ -1,0 +1,230 @@
+html,body{
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.separate-line{
+	margin:0;
+	border-color: #928d8d;
+}
+
+.navbar{
+	position: fixed;
+	top:0;
+	z-index: 999;
+	width: 78%;
+}
+
+.navbar__right{
+	margin-left: 0;
+	background-color: #2A2F35;
+	height: 68px;
+}
+
+.navbar__brand{
+	padding: 10px 0px;
+	background-color: #F75035;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 700;
+	font-size: 2em;
+	color:white;
+	text-align: center;
+}
+
+.navbar .navbar__top{
+	margin-top: 5px;
+    padding-bottom: 7px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.navbar .navbar__slogan{
+	color:gray;
+	font-size: 0.5em;
+	display: inline-block;
+}
+
+.navbar .navbar__social{
+	display: inline-block;
+	float: right;
+}
+
+.navbar .navbar__social-icon{
+	width: 12px;
+	height: auto;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.navbar .navbar__social-icon img{
+	width: 100%;
+}
+
+.nav{
+	padding-bottom: 5px;
+}
+
+.nav .nav__item{
+	display: inline-block;
+	width: 24%;
+	color:white;
+	text-align: center;
+
+}
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/************************************************/
+
+.about-section{
+
+}
+
+.about-section .about-section__content{
+	height: 150px;
+	background-size: cover;
+	background-position: 100%;
+}
+
+.about-section .about-section__picture1{
+	background-image: url('images/street-building.jpg');
+}
+
+.about-section .about-section__picture2{
+	background-image: url('images/people.jpg');
+}
+
+.about-section .about-section__picture3{
+	background-image: url('images/guy.jpg');
+}
+
+
+.about-section .about-section__subject{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.2em;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.about-section .about-section__description{
+	text-transform: capitalize;
+	font-size: 0.8em;
+	font-weight: 300;
+}
+
+/*************************/
+
+.section{
+	padding-top:40px;
+	padding-top:20px;
+}
+
+.section .section__title{
+	font-weight: 700;
+	font-size: 2em;
+}
+
+.section .section__line{
+	width: 100px;
+	height: 5px;
+	background-color: #F75035;
+	float: left;
+	display: block;
+	margin-bottom: 30px;
+}
+
+.section .section__testimonials{
+	margin-top: 40px;
+	background-color: #F5F5F5;
+	padding: 20px;
+	height: 200px;
+}
+
+.section .section__services{
+	width: 100%;
+	float: left;
+}
+
+.section .section__service1{
+	background-image: url('images/civil-constructing.jpg');
+	background-size: cover;
+	background-position: 100%;
+	height: 200px;
+}
+
+
+.section .section__service2{
+	background-image: url('images/mechanic.jpg');
+	background-size: cover;
+	background-position: 100%;
+	height: 200px;
+}
+
+.section .section__service3{
+	background-image: url('images/technology.jpg');
+	background-size: cover;
+	background-position: 100%;
+	height: 200px;
+}
+
+.section .section__news{
+	width: 100%;
+	float: left;
+}
+
+.section .section__news-item{
+
+}
+
+.section .section__news-photo1{
+	background-image: url('images/building.jpg');
+	background-size: cover;
+	background-position: 100%;
+	height: 150px;
+}
+
+.section .section__news-photo2{
+	background-image: url('images/sky.jpg');
+	background-size: cover;
+	background-position: 100%;
+	height: 150px;
+}
+
+.section .section__news-photo3{
+	background-image: url('images/image1.jpg');
+	background-size: cover;
+	background-position: 100%;
+	height: 150px;
+}
+
+
+
+/**************FOOTER*********************/
+.footer{
+	margin-top: 40px;
+	background-color: #2A2F35;
+	padding: 20px;
+}
+
+.footer .footer__title{
+	color:gray;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+.footer .footer__about-title{
+	font-size: 1.2em;
+	font-family: 500;
+	text-transform: uppercase;
+	color:white;
+}
+
+.footer .footer__about-content{
+	font-size: 0.8em;
+	font-family: 300;
+	color:#F5F5F5;
+}
