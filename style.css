@@ -19,6 +19,20 @@ html,body{
    width: 60%;
 }
 
+.owl-theme .owl-controls {
+    margin-top: 10px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform:translateX(-50%);
+}
+
+#owl-demo .item img {
+    display: block;
+    width: 100%;
+    height: 100vh !important;
+}
 
 
 .navbar{
@@ -84,7 +98,12 @@ html,body{
 	width: 24%;
 	color:white;
 	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+}
 
+.nav__item:hover{
+	color:#F75035;
 }
 
 #owl-demo .item img{
@@ -96,7 +115,7 @@ html,body{
 /************************************************/
 
 .about-section{
-
+	margin-top: 60px;
 }
 
 .about-section .about-section__content{
@@ -210,6 +229,18 @@ html,body{
 
 .section .section__news-item{
 
+}
+
+.section .section__news-title{
+	display: inline-block;
+	width: 50%;
+	float: left;
+}
+
+.section .section__news-date{
+	display: inline-block;
+	width: 50%;
+	float:right;
 }
 
 .section .section__news-photo1{
