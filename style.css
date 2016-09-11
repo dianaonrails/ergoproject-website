@@ -111,14 +111,22 @@ html,body{
 }
 
 .nav .nav__search{
-	width: 100%;
-	height: 30px;
+	width: 0;
+	height: 20px;
 	background: transparent;
 	border:none;
 	border-bottom: 1px solid white;
 	border-radius: 0;
-	display: none;
+	border-color: #2A2F35;
+	-webkit-transition: width 0.4s ease-in-out;
+	-moz-transition: width 0.3s;
+    transition: width 0.4s ease-in-out;
 }
+
+.nav__search:focus{
+	outline: none;
+}
+
 
 .icon-search{
 	position: absolute;
@@ -126,22 +134,6 @@ html,body{
     right: 74px;
 }
 
-.nav input[type=text] {
-	width: 100%;
-    /* height: 40%; */
-    height: 24px;
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid white;
-    /* border: none; */
-    border-radius: 0;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-}
-
-.nav input[type=text]:focus {
-    width: 100%;
-}
 
 #owl-demo .item img{
     display: block;
@@ -150,6 +142,11 @@ html,body{
 }
 
 /************************************************/
+
+.main-section{
+	margin-top:100px;
+}
+
 
 .about-section{
 	margin-top: 60px;
@@ -303,6 +300,13 @@ html,body{
 	position: relative;
 }
 
+.section .section__service-link{
+	position: absolute;
+	top:70%;
+	left:50%;
+	transform:translateX(-50%);
+}
+
 .section .section__news{
 	width: 100%;
 	float: left;
@@ -395,6 +399,11 @@ html,body{
 	padding-top: 10px;
 }
 
+.footer .footer__info a{
+	text-decoration: none;
+	color:#ECEBEB;
+}
+
 .footer .footer__address{
 	font-size: 0.8em;
 	color:#ECEBEB;
@@ -409,6 +418,11 @@ html,body{
 	color:#ECEBEB;
 	font-weight: 300;
 	line-height: 1.5;
+}
+
+.footer .footer__arrow{
+	font-size: 0.8em;
+	margin-right: 10px;
 }
 
 /****************BUTTONS***************/
@@ -455,16 +469,162 @@ html,body{
 }
 
 
+
 .link__know-more{
-	position: absolute;
-    top: 68%;
-    left: 35%;
     color:#d1d1d1;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .link__know-more:hover{
 	color:#F75035;
 }
 
+/*************PROJECTS****************/
 
+.section__projects{
+	width: 100%;
+	float:left;
+	display: block;
+	position: relative;
+	margin-top: 30px;
+}
+
+.project{
+	background-size: 100%;
+	background-position: cover;
+	height: 200px;
+	position: relative;
+}
+
+.project .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    display: block;
+    background: rgba(111, 90, 82, 0.5);
+}
+
+.project .project__title{
+	position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 100%;
+    height: 100%;
+    color:white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.project .project__location{
+	position: absolute;
+    top: 65%;
+    left: 10%;
+    width: 100%;
+    height: 100%;
+    color:white;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+.project .project__link{
+	position: absolute;
+	top:83%;
+	left: 10%;
+	width: 100%;
+    height: 100%;
+}
+
+/*********PROJECT***********/
+.section__project{
+
+}
+
+.section__project .image{
+	width: 100%;
+	height: 300px;
+	background-size: 100%;
+	background-position: cover;
+}
+
+/***********ORGANIZATION**************/
+
+.section__organization{
+	float: left;
+	width: 100%;
+	display: block;
+	margin-top: 20px;
+}
+
+
+
+.section__organization .company{
+	position: relative;
+}
+
+.section__organization .icon__circle{
+	position: absolute;
+	top:0;
+	left:0;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	background-color: #F75035;
+}
+
+.section__organization .organization-icon{
+	color:white;
+	font-size: 19px;
+	position: relative;
+    top: 7px;
+    left: 8px;
+
+}
+
+.section__organization .title{
+	font-size: 25px;
+	font-weight: 400;
+	width: 95%;
+	float: right;
+	display: inline-block;
+}
+
+.company__text{
+	margin-top: 20px;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.section__organization .services{
+	margin-top: 35px;
+	margin-bottom: 50px;
+	position: relative;
+	width: 100%;
+    float: left;
+    display: block;
+}
+
+.section__organization .services__container{
+	margin-top: 20px;
+}
+
+.services__container .service-title{
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+}
+
+.services__container .service-text{
+	font-weight: 300;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.section__organization .whyus{
+
+}

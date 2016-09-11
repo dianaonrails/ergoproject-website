@@ -41,8 +41,6 @@ $(document).ready(function() {
     old.next('.testimonial').addClass('current');
 
     old.removeClass('current');
-
-   
   });
  
 
@@ -53,7 +51,10 @@ $(document).ready(function() {
     old.prev('.testimonial').addClass('current');
 
     old.removeClass('current');
+  });
 
-   
+  $('.js-search').click(function(){
+    $('.nav__search').css('border-color','white');
+    $('.nav__search').css('width','140px');
   });
 });
