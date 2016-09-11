@@ -23,11 +23,13 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/owl.carousel.css">
   <link rel="stylesheet" href="css/owl.theme.css">
+  <link rel="stylesheet" href="css/icomoon/style.css">
   <link rel="stylesheet" href="style.css">
 
   <!-- JAVASCRIPT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="js/jquery-3.1.0.min.js"></script>
+   <script src="js/jquery-ui.min.js"></script>
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/main.js"></script>
 
@@ -42,7 +44,7 @@
 				
 				<nav class="navbar">
 					<div class="three columns navbar__brand">
-						ERGOPROJECT
+						<a href="index.html">ERGOPROJECT</a>
 					</div>
 					<div class="nine columns navbar__right">
 						<div class="twelve columns navbar__top">
@@ -61,6 +63,9 @@
 								<a class="nav__item" href="consultoria.html">Consultoria</a>
 								<a class="nav__item" href="projectos.html">Projectos</a>
 								<a class="nav__item" href="contactos.html">Contactos</a>
+								<div class="nav__item">
+									<input type="text" class="nav__search"><span class="icon-search"></span>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -74,7 +79,7 @@
 	  	<h2>Consultoria em Engenharia</h2>
 	  	<div class="primary-btn position">os nossos serviços</div><div class="secondary-btn position">contacte-nos</div>
 	  </div><img src="images/porto.png" alt="porto"></div>
-	  <div class="item"><div class="textoverlay"><h2>Text 1</h2></div><img src="images/construction.jpg" alt="andaimes"></div>
+	  <div class="item"><div class="textoverlay"><h2>Fiscalização</h2></div><img src="images/construction.jpg" alt="andaimes"></div>
 	 
 	</div>
 	<div class="container">
@@ -105,7 +110,29 @@
 				Testemunhos
 			</div>	
 			<div class="section__line"></div>
-			<div class="section__testimonials"></div>
+			<div class="section__testimonials" id="testimonials">
+				<div class="icon-circle-left icon-left js-left"></div>
+				<div class="testimonial current">
+					&quot;Text text text text text text text text text text text text text text text text text text text text text text text text text text text text &quot;
+					<div class="testimonial-person">Person - 1</div>
+				</div>
+
+				<div class="testimonial">
+					&quot;Text text text text text text text text text text text text text text text text text text text text text text text text text text text text &quot;
+					<div class="testimonial-person">Person - 2</div>
+				</div>
+
+				<div class="testimonial">
+					&quot;Text text text text text text text text text text text text text text text text text text text text text text text text text text text text &quot;
+					<div class="testimonial-person">Person - 3</div>
+				</div>
+
+				<div class="testimonial">
+					&quot;Text text text text text text text text text text text text text text text text text text text text text text text text text text text text &quot;
+					<div class="testimonial-person">Person - 4</div>
+				</div>
+				<div class="icon-circle-right icon-right js-right"></div>
+			</div>
 		</div>
 		<hr />
 		<div class="row section">
@@ -114,9 +141,18 @@
 			</div>	
 			<div class="section__line"></div>
 			<div class="section__services">
-				<div class="four columns section__service1"><div class="section__service-title">Engenharia Civil</div></div>
-				<div class="four columns section__service2"><div class="section__service-title">Engenharia Mecânica</div></div>
-				<div class="four columns section__service3"><div class="section__service-title">Engenharia Electrotécnica</div></div>
+				<div class="four columns section__service1">
+					<div class="section__service-title">Engenharia Civil</div>
+					<a class="link__know-more" href="#">saiba mais <span class="icon-arrow-right2"></span></a>
+				</div>
+				<div class="four columns section__service2">
+					<div class="section__service-title">Engenharia Mecânica</div>
+					<a class="link__know-more" href="#">saiba mais <span class="icon-arrow-right2"></span></a>
+				</div>
+				<div class="four columns section__service3">
+					<div class="section__service-title">Engenharia Electrotécnica</div>
+					<a class="link__know-more" href="#">saiba mais <span class="icon-arrow-right2"></span></a>
+				</div>
 			</div>
 		</div>
 		<hr />
@@ -130,17 +166,19 @@
 					<div class="section__news-photo1"></div>
 					<div class="section__news-title">Titulo</div>
 					<div class="section__news-date">data</div>
+					<div class="section__news-description">descrição...</div>
 				</div>
 				<div class="four columns section__new-item">
 					<div class="section__news-photo2"></div>
 					<div class="section__news-title">Titulo</div>
 					<div class="section__news-date">data</div>
+					<div class="section__news-description">descrição...</div>
 				</div>
 				<div class="four columns section__news-item">
 					<div class="section__news-photo3"></div>
 					<div class="section__news-title">Titulo</div>
 					<div class="section__news-date">data</div>
-
+					<div class="section__news-description">descrição...</div>
 				</div>
 			</div>
 		</div>

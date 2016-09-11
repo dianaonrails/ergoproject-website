@@ -59,6 +59,11 @@ html,body{
 	text-align: center;
 }
 
+.navbar__brand a{
+	text-decoration: none;
+	color:white;
+}
+
 .navbar .navbar__top{
 	margin-top: 5px;
     padding-bottom: 7px;
@@ -90,12 +95,11 @@ html,body{
 }
 
 .nav{
-	padding-bottom: 5px;
 }
 
 .nav .nav__item{
 	display: inline-block;
-	width: 24%;
+	width: 18%;
 	color:white;
 	text-align: center;
 	cursor: pointer;
@@ -104,6 +108,39 @@ html,body{
 
 .nav__item:hover{
 	color:#F75035;
+}
+
+.nav .nav__search{
+	width: 100%;
+	height: 30px;
+	background: transparent;
+	border:none;
+	border-bottom: 1px solid white;
+	border-radius: 0;
+	display: none;
+}
+
+.icon-search{
+	position: absolute;
+	top: 40px;
+    right: 74px;
+}
+
+.nav input[type=text] {
+	width: 100%;
+    /* height: 40%; */
+    height: 24px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    /* border: none; */
+    border-radius: 0;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.nav input[type=text]:focus {
+    width: 100%;
 }
 
 #owl-demo .item img{
@@ -164,7 +201,7 @@ html,body{
 }
 
 .section .section__line{
-	width: 100px;
+	width: 80px;
 	height: 5px;
 	background-color: #F75035;
 	float: left;
@@ -177,6 +214,50 @@ html,body{
 	background-color: #F5F5F5;
 	padding: 20px;
 	height: 200px;
+	width:100%;
+    max-height: 100%;
+    position: relative;
+}
+
+.testimonial{
+	display: none;
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	top:30%;
+	text-align: center;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.testimonial.current{
+	display: block;
+}
+
+.testimonial-person{
+	width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.icon-left{
+	font-size: 1.5em;
+	position: absolute;
+	top:40%;
+	left: 20px;
+	cursor: pointer;
+}
+
+.icon-right{
+	font-size: 1.5em;
+	position: absolute;
+	top:40%;
+	right: 20px;
+	cursor: pointer;
 }
 
 .section .section__services{
@@ -239,8 +320,17 @@ html,body{
 
 .section .section__news-date{
 	display: inline-block;
-	width: 50%;
 	float:right;
+}
+
+.section .section__news-description{
+	display: block;
+	margin-top: 10px;
+	color:#D1D1D1;
+	font-size: 14px;
+	font-weight: 300;
+	float: left;
+    width: 100%;
 }
 
 .section .section__news-photo1{
@@ -363,3 +453,18 @@ html,body{
 	top:180px;
 	left:35%;
 }
+
+
+.link__know-more{
+	position: absolute;
+    top: 68%;
+    left: 35%;
+    color:#d1d1d1;
+    text-decoration: none;
+}
+
+.link__know-more:hover{
+	color:#F75035;
+}
+
+
