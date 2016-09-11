@@ -4,6 +4,46 @@
     {
       "icon": {
         "paths": [
+          "M782.858 562.693l-440.304 440.29c-28.009 28.022-73.42 28.022-101.415 0-27.997-27.997-27.997-73.406 0-101.401l389.601-389.589-389.589-389.576c-27.997-28.009-27.997-73.413 0-101.41 27.997-28.009 73.406-28.009 101.415 0l440.304 440.297c13.999 14.005 20.99 32.342 20.99 50.687 0 18.354-7.005 36.704-21.001 50.703z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(96, 125, 139)"
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "arrow-point-to-right"
+        ],
+        "colorPermutations": {
+          "2552552551961251391": [
+            {
+              "f": 0
+            }
+          ]
+        }
+      },
+      "attrs": [
+        {
+          "fill": "rgb(96, 125, 139)"
+        }
+      ],
+      "properties": {
+        "order": 31,
+        "id": 13,
+        "name": "arrow-point-to-right",
+        "prevSize": 32,
+        "code": 59656
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
           "M991.284 932.702l-243.714-253.474c62.663-74.491 96.997-168.216 96.997-265.788 0-227.967-185.473-413.44-413.44-413.44s-413.44 185.473-413.44 413.44 185.473 413.44 413.44 413.44c85.582 0 167.137-25.813 236.865-74.815l245.565 255.398c10.264 10.66 24.069 16.538 38.863 16.538 14.003 0 27.287-5.339 37.371-15.046 21.427-20.618 22.11-54.808 1.492-76.253zM431.128 107.854c168.504 0 305.586 137.082 305.586 305.586s-137.082 305.586-305.586 305.586-305.586-137.082-305.586-305.586 137.082-305.586 305.586-305.586z"
         ],
         "attrs": [
@@ -39,7 +79,7 @@
       },
       "setIdx": 0,
       "setId": 1,
-      "iconIdx": 0
+      "iconIdx": 1
     },
     {
       "icon": {
@@ -121,7 +161,7 @@
         }
       ],
       "properties": {
-        "order": 4,
+        "order": 30,
         "id": 11,
         "name": "about-us",
         "prevSize": 32,
@@ -129,7 +169,7 @@
       },
       "setIdx": 0,
       "setId": 1,
-      "iconIdx": 1
+      "iconIdx": 2
     },
     {
       "icon": {
@@ -191,7 +231,7 @@
         }
       ],
       "properties": {
-        "order": 5,
+        "order": 20,
         "id": 10,
         "name": "close-envelope-(1)",
         "prevSize": 32,
@@ -199,7 +239,7 @@
       },
       "setIdx": 0,
       "setId": 1,
-      "iconIdx": 2
+      "iconIdx": 3
     },
     {
       "icon": {
@@ -231,7 +271,7 @@
         }
       ],
       "properties": {
-        "order": 6,
+        "order": 21,
         "id": 9,
         "name": "facebook-logo",
         "prevSize": 32,
@@ -239,7 +279,7 @@
       },
       "setIdx": 0,
       "setId": 1,
-      "iconIdx": 3
+      "iconIdx": 4
     },
     {
       "icon": {
@@ -301,7 +341,7 @@
         }
       ],
       "properties": {
-        "order": 8,
+        "order": 22,
         "id": 8,
         "name": "handyman-tools",
         "prevSize": 32,
@@ -309,7 +349,7 @@
       },
       "setIdx": 0,
       "setId": 1,
-      "iconIdx": 4
+      "iconIdx": 5
     },
     {
       "icon": {
@@ -361,7 +401,7 @@
         }
       ],
       "properties": {
-        "order": 7,
+        "order": 23,
         "id": 7,
         "name": "info",
         "prevSize": 32,
@@ -369,7 +409,7 @@
       },
       "setIdx": 0,
       "setId": 1,
-      "iconIdx": 5
+      "iconIdx": 6
     },
     {
       "icon": {
@@ -401,7 +441,7 @@
         }
       ],
       "properties": {
-        "order": 9,
+        "order": 24,
         "id": 6,
         "name": "location-pin-(1)",
         "prevSize": 32,
@@ -409,7 +449,7 @@
       },
       "setIdx": 0,
       "setId": 1,
-      "iconIdx": 6
+      "iconIdx": 7
     },
     {
       "icon": {
@@ -441,51 +481,11 @@
         }
       ],
       "properties": {
-        "order": 10,
+        "order": 25,
         "id": 5,
         "name": "phone-receiver-(2)",
         "prevSize": 32,
         "code": 59655
-      },
-      "setIdx": 0,
-      "setId": 1,
-      "iconIdx": 7
-    },
-    {
-      "icon": {
-        "paths": [
-          "M689.55 162.819c-13.95-14.438-37.168-14.438-51.606 0-13.95 13.95-13.95 37.168 0 51.086l261.674 261.674h-863.49c-20.129 0.033-36.128 16.032-36.128 36.16s15.999 36.648 36.128 36.648h863.49l-261.674 261.187c-13.95 14.438-13.95 37.689 0 51.606 14.438 14.438 37.689 14.438 51.606 0l323.622-323.622c14.438-13.95 14.438-37.168 0-51.086l-323.622-323.654z"
-        ],
-        "attrs": [
-          {
-            "fill": "rgb(255, 255, 255)"
-          }
-        ],
-        "isMulticolor": false,
-        "isMulticolor2": false,
-        "grid": 0,
-        "tags": [
-          "right-arrow"
-        ],
-        "colorPermutations": {
-          "2552552551961251391": [
-            {
-              "f": 1
-            }
-          ]
-        }
-      },
-      "attrs": [
-        {
-          "fill": "rgb(255, 255, 255)"
-        }
-      ],
-      "properties": {
-        "order": 11,
-        "id": 4,
-        "name": "right-arrow",
-        "prevSize": 32,
-        "code": 59656
       },
       "setIdx": 0,
       "setId": 1,
@@ -531,7 +531,7 @@
         }
       ],
       "properties": {
-        "order": 12,
+        "order": 27,
         "id": 3,
         "name": "shield",
         "prevSize": 32,
@@ -539,7 +539,7 @@
       },
       "setIdx": 0,
       "setId": 1,
-      "iconIdx": 9
+      "iconIdx": 10
     },
     {
       "icon": {
@@ -571,7 +571,7 @@
         }
       ],
       "properties": {
-        "order": 13,
+        "order": 28,
         "id": 2,
         "name": "theater-(1)",
         "prevSize": 32,
@@ -579,7 +579,7 @@
       },
       "setIdx": 0,
       "setId": 1,
-      "iconIdx": 10
+      "iconIdx": 11
     },
     {
       "icon": {
@@ -619,7 +619,7 @@
       },
       "setIdx": 0,
       "setId": 1,
-      "iconIdx": 11
+      "iconIdx": 12
     },
     {
       "icon": {
@@ -651,7 +651,7 @@
         }
       ],
       "properties": {
-        "order": 3,
+        "order": 29,
         "id": 0,
         "name": "twitter",
         "prevSize": 32,
@@ -659,7 +659,7 @@
       },
       "setIdx": 0,
       "setId": 1,
-      "iconIdx": 12
+      "iconIdx": 13
     },
     {
       "icon": {
