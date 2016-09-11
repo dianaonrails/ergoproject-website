@@ -566,37 +566,48 @@ html,body{
 	position: relative;
 }
 
-.section__organization .icon__circle{
+.icon__circle{
 	position: absolute;
 	top:0;
 	left:0;
-	height: 35px;
-	width: 35px;
+	height: 40px;
+	width: 40px;
 	border-radius: 50%;
 	background-color: #F75035;
 }
 
-.section__organization .organization-icon{
+.section-icon{
 	color:white;
 	font-size: 19px;
 	position: relative;
-    top: 7px;
-    left: 8px;
-
+    top: 10px;
+    left: 11px;
 }
 
-.section__organization .title{
+.section-icon-shield{
+	color:white;
+	font-size: 19px;
+	position: relative;
+    top: 11px;
+    left: 14px;
+}
+
+.title{
 	font-size: 25px;
 	font-weight: 400;
-	width: 95%;
+	width: 93%;
 	float: right;
 	display: inline-block;
 }
 
-.company__text{
-	margin-top: 20px;
+.section-text{
+	margin-top: 10px;
 	font-size: 14px;
 	font-weight: 300;
+}
+
+.section__organization .about-us{
+	margin-bottom: 30px;
 }
 
 .section__organization .services{
@@ -625,6 +636,16 @@ html,body{
 	margin-top: 10px;
 }
 
-.section__organization .whyus{
+.section__consultancy{
+	position: relative;
+	width: 100%;
+    float: left;
+    margin-top: 10px;
+}
 
+.sub-section{
+	width: 100%;
+	float: left;
+	position: relative;
+	margin-bottom: 40px;
 }
