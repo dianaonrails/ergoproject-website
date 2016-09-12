@@ -26,12 +26,11 @@ $(document).ready(function() {
   });
 
   $("#owl-demo").owlCarousel({
- 
       navigation : false, // Show next and prev buttons
       slideSpeed : 300,
       paginationSpeed : 400,
       singleItem:true,
-      loop:true
+      autoPlay:true
  
       // "singleItem:true" is a shortcut for:
       // items : 1, 
@@ -45,9 +44,13 @@ $(document).ready(function() {
   $('.js-right').click(function(){
     
     var old = $('.testimonial.current');
-
-    old.next('.testimonial').addClass('current');
-
+    if(old.next('.testimonial').length > 0){
+      old.next('.testimonial').addClass('current');
+    }
+    else{
+      $('.testimonial:first').addClass('current');
+    }
+  
     old.removeClass('current');
   });
  
@@ -55,10 +58,17 @@ $(document).ready(function() {
   $('.js-left').click(function(){
     
     var old = $('.testimonial.current');
-
-    old.prev('.testimonial').addClass('current');
+    if(old.prev('.testimonial').length > 0){
+      old.prev('.testimonial').addClass('current');
+    }
+    else{
+      $('.testimonial:last').addClass('current');
+    }
+    
 
     old.removeClass('current');
+
+
   });
 
   $('.js-search').click(function(){
