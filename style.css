@@ -10,7 +10,7 @@ html,body{
 .owl-carousel div h2, .owl-carousel div .textoverlay{
     position:absolute;
     color:#FFF;
-   font-size:2em;
+   font-size:50px;
    display:block;
    top:30%;
    left: 8%;
@@ -128,18 +128,140 @@ html,body{
 }
 
 
-.icon-search{
+.desktop-icon-search{
 	position: absolute;
 	top: 40px;
     right: 74px;
 }
-
 
 #owl-demo .item img{
     display: block;
     width: 100%;
     height: auto;
 }
+
+.navbar-mobile{
+	display: none;
+	background-color: #32312D;
+	padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    height: 100%;
+    min-height: 50px;
+}
+
+.navbar-mobile__nav-toggle{
+	color: white;
+    cursor: pointer;
+    position: absolute;
+    height: 40px;
+    top: 20px;
+
+}
+
+.navbar-mobile .navbar-mobile__hamburger, .navbar-mobile .navbar-mobile__hamburger:before, .navbar-mobile .navbar-mobile__hamburger:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 2px;
+  width: 35px;
+  background: white;
+  position: absolute;
+  display: block;
+  content: ''; 
+}
+
+.navbar-mobile .navbar-mobile__hamburger:before {
+  top: -8px; 
+}
+
+.navbar-mobile .navbar-mobile__hamburger:after {
+  bottom: -8px; }
+
+.navbar-mobile .navbar-mobile__hamburger, .navbar-mobile .navbar-mobile__hamburger:before, .navbar-mobile .navbar-mobile__hamburger:after {
+  transition: all 500ms ease-in-out; }
+
+.navbar-mobile.active .navbar-mobile__hamburger:before {
+    transform: rotate(45deg);
+}
+
+.navbar-mobile.active .navbar-mobile__hamburger:after {
+    transform: rotate(-45deg);
+}
+
+.navbar-mobile.active .navbar-mobile__hamburger:before, .navbar-mobile.active .navbar-mobile__hamburger:after {
+    top: 0;
+}
+
+.navbar-mobile.active .navbar-mobile__hamburger {
+    background-color: transparent;
+}
+
+.navbar-mobile__nav-toggle-title{
+	font-size: 0.8em;
+    position: absolute;
+    top: 30%;
+    text-decoration: none;
+    color: white;
+
+}
+
+.navbar-mobile__title{
+	text-align: center;
+    color: white;
+    font-size: 20px;
+    top: 10px;
+    width: 75%;
+    margin: 0 auto;
+    font-weight: 700;
+    position: relative;
+}
+
+.navbar-mobile__title a{
+	color:white;
+	text-decoration: none;
+}
+
+
+.navbar-mobile__search{
+	display: inline-block;
+    width: 15%;
+    color: white;
+    position: absolute;
+    top: 15px;
+    font-size: 20px;
+    right: 2%;
+}
+
+
+
+.navbar-mobile.active .list{
+	display: block;
+}
+
+.navbar-mobile .list{
+	list-style: none;
+	margin-top: 40px;
+	padding-left: 30px;
+}
+
+.navbar-mobile .list.list-closed{
+	display: none;
+}
+
+.navbar-mobile .list-item a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+
+.navbar-mobile .list-item a:hover{
+	color:#F75035;
+}
+
+.closed{
+	display: none;
+}
+
 
 /************************************************/
 
@@ -211,7 +333,6 @@ html,body{
 	background-color: #F5F5F5;
 	padding: 20px;
 	height: 200px;
-	width:100%;
     max-height: 100%;
     position: relative;
 }
@@ -648,4 +769,107 @@ html,body{
 	float: left;
 	position: relative;
 	margin-bottom: 40px;
+}
+
+/**********************CONTACTS***************/
+
+.section__contacts{
+	width: 100%;
+	float: left;
+	display: block;
+	margin-top: 20px;
+}
+
+.section__form-title{
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.contact-form{
+	margin-bottom: 40px;
+    width: 100%;
+    float: left;
+}
+
+.form-input{
+	width: 90%;
+}
+
+.form-textarea{
+	width: 90%;
+	height: 118px;
+}
+
+input[type="submit"].form-submit{
+	float: right;
+	margin-right: 50px;
+	border-color:#F75035;
+	color: #F75035;
+}
+
+input[type="submit"].form-submit:hover{
+	background-color: #F75035;
+	color:white;
+}
+
+.contacts-text{
+	font-size: 15px;
+	font-weight: 300;
+}
+
+
+@media only screen and (max-width: 768px) {
+	.desktop-menu{
+		display: none;
+	}
+	.navbar-mobile{
+		display: block;
+	}
+
+	.owl-carousel div h2, .owl-carousel div .textoverlay{
+		font-size: 25px;
+		top:10%;
+	}
+
+	.primary-btn.position{
+		top: 122px;
+	}
+
+	.secondary-btn.position{
+		top: 194px;
+		left:20px;
+	}
+
+	.owl-theme .owl-controls{
+		bottom:0;
+	}
+
+	.testimonial{
+		top:0;
+		font-size: 15px;
+	}
+
+	.section .section__service1{
+		margin-bottom: 20px;
+	}
+	.section .section__service2{
+		margin-bottom: 20px;
+	}
+
+	.section .section__service3{
+		margin-bottom: 20px;
+	}
+
+	.footer .footer__nav{
+		margin-left: 0;
+	}
+
+	.footer__about{
+		margin-bottom: 30px;
+	}
+
+	.footer__nav{
+		margin-bottom: 30px;
+	}
 }

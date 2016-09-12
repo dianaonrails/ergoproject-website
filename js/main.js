@@ -17,6 +17,14 @@ function roll(){
 
 $(document).ready(function() {
 
+  $('.js-menu').click(function(e){
+
+      $('.navbar-mobile').toggleClass( "active" );
+      
+      $('.navbar-mobile__nav-toggle-title').toggleClass("closed");
+      $('.list-closed').toggle("slow");
+  });
+
   $("#owl-demo").owlCarousel({
  
       navigation : false, // Show next and prev buttons

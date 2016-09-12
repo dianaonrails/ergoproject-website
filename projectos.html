@@ -29,7 +29,7 @@
   <!-- JAVASCRIPT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="js/jquery-3.1.0.min.js"></script>
-   <script src="js/jquery-ui.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/main.js"></script>
 
@@ -38,7 +38,23 @@
 </head>
 <body>
   <header>
-    <div class="container">
+    <div class="navbar-mobile">
+      <div class="container">
+        <div class="navbar-mobile__nav-toggle js-menu">
+          <span class="navbar-mobile__hamburger"></span>
+          <div class="navbar-mobile__nav-toggle-title">MENU</div>
+        </div>  
+        <div class="navbar-mobile__title"><a href="index.html">ERGOPROJECT</a></div>
+        <div class="navbar-mobile__search"><span class="navbar-mobile__search-icon icon-search"></span></div>
+      </div>  
+      <ul class="list list-closed">
+        <li class="list-item"><a class="nav__item" href="organizacao.html">Organização</a></li>
+        <li class="list-item"><a class="nav__item" href="consultoria.html">Consultoria</a></li>
+        <li class="list-item"><a class="nav__item" href="projectos.html">Projectos</a></li>
+        <li class="list-item"><a class="nav__item" href="contactos.html">Contactos</a></li>
+      </ul> 
+    </div>
+    <div class="container desktop-menu">
       <div class="row">
         
         <nav class="navbar">
@@ -62,6 +78,9 @@
                 <a class="nav__item" href="consultoria.html">Consultoria</a>
                 <a class="nav__item" href="projectos.html">Projectos</a>
                 <a class="nav__item" href="contactos.html">Contactos</a>
+                <div class="nav__item">
+                  <input type="text" class="nav__search"><span class="icon-search desktop-icon-search js-search"></span>
+                </div>
               </div>
             </div>
           </div>
