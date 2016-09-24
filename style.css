@@ -7,6 +7,16 @@ html,body{
 	border-color: #928d8d;
 }
 
+.background-top{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	background-color: rgba(105, 82, 52, 0.55);
+	z-index: 111;
+}
+
 .owl-carousel div h2, .owl-carousel div .textoverlay{
     position:absolute;
     color:#FFF;
@@ -17,6 +27,7 @@ html,body{
    font-family: 'Fira Sans', sans-serif;
    font-weight: 400;
    width: 60%;
+   z-index: 1111;
 }
 
 .owl-theme .owl-controls {
@@ -52,7 +63,7 @@ html,body{
 
 .navbar__brand{
 	padding: 10px 0px;
-	background-color: #F75035;
+	background-color: #F07864;
 	font-family: 'Fira Sans', sans-serif;
 	font-weight: 700;
 	font-size: 2em;
@@ -112,7 +123,7 @@ html,body{
 }
 
 .nav__item:hover{
-	color:#F75035;
+	color:#F07864;
 }
 
 .nav .nav__search{
@@ -260,7 +271,7 @@ html,body{
 }
 
 .navbar-mobile .list-item a:hover{
-	color:#F75035;
+	color:#F07864;
 }
 
 .closed{
@@ -286,15 +297,15 @@ html,body{
 }
 
 .about-section .about-section__picture1{
-	background-image: url('images/street-building.jpg');
+	background-image: url('images/index/Empresa.jpg');
 }
 
 .about-section .about-section__picture2{
-	background-image: url('images/people.jpg');
+	background-image: url('images/index/Consultoria.jpg');
 }
 
 .about-section .about-section__picture3{
-	background-image: url('images/guy.jpg');
+	background-image: url('images/index/Projetos.jpg');
 }
 
 
@@ -328,7 +339,7 @@ html,body{
 .section .section__line{
 	width: 80px;
 	height: 5px;
-	background-color: #F75035;
+	background-color: #F07864;
 	float: left;
 	display: block;
 	margin-bottom: 30px;
@@ -401,9 +412,17 @@ html,body{
 	font-weight: 500;
 }
 
+.section .section__service-background{
+	background-color: rgba(99, 58, 9, 0.6);
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height: 100%;
+}
 
 .section .section__service1{
-	background-image: url('images/civil-constructing.jpg');
+	background-image: url('images/index/Engenharia_Civil.jpg');
 	background-size: cover;
 	background-position: 100%;
 	height: 200px;
@@ -412,7 +431,7 @@ html,body{
 
 
 .section .section__service2{
-	background-image: url('images/mechanic.jpg');
+	background-image: url('images/index/Engenharia_Mecanica.jpg');
 	background-size: cover;
 	background-position: 100%;
 	height: 200px;
@@ -420,7 +439,7 @@ html,body{
 }
 
 .section .section__service3{
-	background-image: url('images/technology.jpg');
+	background-image: url('images/index/Engenharia_Electrotecnica.jpg');
 	background-size: cover;
 	background-position: 100%;
 	height: 200px;
@@ -478,21 +497,21 @@ html,body{
 
 
 .section .section__news-photo1{
-	background-image: url('images/building.jpg');
+	background-image: url('images/index/betão.jpg');
 	background-size: cover;
 	background-position: 100%;
 	height: 150px;
 }
 
 .section .section__news-photo2{
-	background-image: url('images/sky.jpg');
+	background-image: url('images/index/EstruturaMetalica.jpg');
 	background-size: cover;
 	background-position: 100%;
 	height: 150px;
 }
 
 .section .section__news-photo3{
-	background-image: url('images/image1.jpg');
+	background-image: url('images/index/reabilitacao.jpg');
 	background-size: cover;
 	background-position: 100%;
 	height: 150px;
@@ -568,18 +587,18 @@ html,body{
 /****************BUTTONS***************/
 
 .primary-btn{
-	border:2px solid #F75035;
+	border:2px solid #F07864;
 	font-size: 15px;
 	font-weight: 500;
 	border-radius: 10px;
 	padding:8px 30px;
-	color:#F75035;
+	color:#F07864;
 	cursor:pointer;
 	text-decoration: none;
 }
 
 .primary-btn:hover{
-	background-color: #F75035;
+	background-color: #F07864;
 	color:white;
 }
 
@@ -620,7 +639,7 @@ html,body{
 }
 
 .link__know-more:hover{
-	color:#F75035;
+	color:#F07864;
 }
 
 /*************PROJECTS****************/
