@@ -723,6 +723,7 @@ html,body{
 	height: 300px;
 	background-size: cover;
 	background-position: 100%;
+
 }
 
 /***********ORGANIZATION**************/
@@ -958,5 +959,7 @@ input[type="submit"].form-submit:hover{
 		margin-bottom: 20px;
 	}
 
-	
+	.section__project .image{
+		margin-bottom: 20px;
+	}
 }
