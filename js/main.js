@@ -15,6 +15,11 @@ function roll(){
     }, 5000);
   }
 
+function validateEmail(email) {
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+}  
+
 $(document).ready(function() {
 
   $('.js-menu').click(function(e){
@@ -74,5 +79,19 @@ $(document).ready(function() {
   $('.js-search').click(function(){
     $('.nav__search').css('border-color','white');
     $('.nav__search').css('width','140px');
+  });
+
+  $('.js-contact').blur(function(){
+    $(this).parent().find('.warning').remove();
+    if ($(this).attr('name') == 'email' && !validateEmail($(this).val())){
+      $('<div class="warning">Email inválido.</div>').insertAfter($(this));
+      
+    }
+    else if($(this).val() == ''){
+      $('<div class="warning">Por favor preencha o campo.</div>').insertAfter($(this));
+    }
+    else{
+      $(this).find('.warning').remove();
+    }
   });
 });

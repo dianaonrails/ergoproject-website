@@ -17,6 +17,13 @@ html,body{
 	z-index: 111;
 }
 
+.warning{
+	color:#ef390c;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: 300;
+}
+
 .owl-carousel div h2, .owl-carousel div .textoverlay{
     position:absolute;
     color:#FFF;
@@ -497,7 +504,7 @@ html,body{
 
 
 .section .section__news-photo1{
-	background-image: url('images/index/betão.jpg');
+	background-image: url('images/index/betão.JPG');
 	background-size: cover;
 	background-position: 100%;
 	height: 150px;
