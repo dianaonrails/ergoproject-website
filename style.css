@@ -731,7 +731,7 @@ html,body{
 
 .image-up{
 	transform: scaleY(-1);
-	filter: FlipH;
+	
 }
 
 /***********ORGANIZATION**************/
