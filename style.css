@@ -424,7 +424,7 @@ html,body{
 }
 
 .section .section__service-background{
-	background-color: rgba(53, 32, 7, 0.6);
+	background-color: rgba(53, 32, 7, 0.4);
 	position: absolute;
 	top:0;
 	left:0;
@@ -679,7 +679,7 @@ html,body{
     height: 100%;
     
     display: block;
-    background: rgba(53, 29, 20, 0.5);
+    background: rgba(53, 32, 23, 0.4);
 }
 
 .project .project__title{
@@ -782,6 +782,7 @@ html,body{
 	width: 93%;
 	float: right;
 	display: inline-block;
+	margin-bottom: 20px;
 }
 
 .section-text{
@@ -862,6 +863,13 @@ html,body{
 .form-textarea{
 	width: 90%;
 	height: 118px;
+}
+
+.list{
+	list-style: circle outside none;
+    padding: 10px 10px 10px 25px;
+	width: 70%;
+	margin: 0 auto;
 }
 
 input[type="submit"].form-submit{
@@ -959,6 +967,7 @@ input[type="submit"].form-submit:hover{
 
 	.title{
 		width: 84%;
+
 	}
 
 	.section__projects{
