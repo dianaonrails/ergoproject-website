@@ -33,10 +33,10 @@ $(document).ready(function() {
   $("#owl-demo").owlCarousel({
       navigation : false, // Show next and prev buttons
       slideSpeed : 300,
-      paginationSpeed : 400,
+      paginationSpeed : 500,
       singleItem:true,
-      autoPlay:true,
-      rewindNav:false
+      autoPlay:true
+      //rewindNav:false
  
       // "singleItem:true" is a shortcut for:
       // items : 1, 
