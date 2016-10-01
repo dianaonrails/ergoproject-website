@@ -194,14 +194,26 @@ html,body{
 	color:#fa9585;
 }
 
+.search .nav__search:focus{
+	border-top:none;
+	border-left: none;
+	border-right: none;
+}
+
+
 .nav .nav__search{
+	font-size: 12px;
 	width: 0;
 	height: 20px;
 	background: transparent;
-	border:none;
+	border-top:none;
+	border-left: none;
+	border-right: none;
 	border-bottom: 1px solid white;
 	border-radius: 0;
 	border-color: #2A2F35;
+	position: relative;
+    top: 6px;
 	-webkit-transition: width 0.4s ease-in-out;
 	-moz-transition: width 0.3s;
     transition: width 0.4s ease-in-out;
