@@ -50,7 +50,16 @@
       <ul class="list list-closed">
         <li class="list-item"><a class="nav__item" href="organizacao.html">Organização</a></li>
         <li class="list-item"><a class="nav__item" href="consultoria.html">Consultoria</a></li>
-        <li class="list-item"><a class="nav__item" href="projectos.html">Projectos</a></li>
+        <li class="list-item">
+          <a class="nav__item js-dropdown" href="projectos.html">
+            Projectos
+          </a>
+          <div id="projectos" class="nav__dropdown-mobile">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+          </div>
+        </li>
         <li class="list-item"><a class="nav__item" href="contactos.html">Contactos</a></li>
       </ul> 
     </div>
@@ -73,11 +82,26 @@
             </div>
             <div class="twelve columns">
               <div class="nav">
-                <a class="nav__item" href="organizacao.html">Organização</a>
-                <a class="nav__item" href="consultoria.html">Consultoria</a>
-                <a class="nav__item" href="projectos.html">Projectos</a>
-                <a class="nav__item" href="contactos.html">Contactos</a>
-                <div class="nav__item">
+                <ul class="nav__list">
+                  <li><a class="nav__item" href="organizacao.html">Organização</a></li>
+                  
+                  <li><a class="nav__item" href="consultoria.html">Consultoria</a></li>
+                  <li>
+                    <a class="nav__item" href="projectos.html">
+                      Projectos
+                    </a>
+                    <div id="projectos" class="nav__dropdown">
+                        <a class="nav__dropdown-item"href="projecto1.html">Estruturas em Betão</a>
+                        <a class="nav__dropdown-item" href="projecto2.html">Estruturas Metálicas e Madeira</a>
+                        <a class="nav__dropdown-item" href="projecto3.html">Reabilitação Urbana</a>
+                        <a class="nav__dropdown-item" href="projecto4.html">Infraestruturas de Edificios</a>
+                        <a class="nav__dropdown-item" href="projecto5.html">AVAC</a>
+                        <a class="nav__dropdown-item" href="projecto6.html">Infraestruturas de Loteamentos</a>
+                    </div>
+                  </li> 
+                  <li><a class="nav__item" href="contactos.html">Contactos</a>
+                </ul>   
+                <div class="nav__item search">
                   <input type="text" class="nav__search"><span class="icon-search desktop-icon-search js-search"></span>
                 </div>
               </div>
@@ -86,7 +110,7 @@
         </nav>    
       </div>
     </div>  
-  </header> 
+  </header>  
   <div class="container main-section">
     <div class="row section">
       <div class="section__title">

@@ -47,6 +47,8 @@ $(document).ready(function() {
  
   });
 
+  
+
   $('.js-right').click(function(){
     
     var old = $('.testimonial.current');
