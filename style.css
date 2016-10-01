@@ -862,7 +862,7 @@ html,body{
 
 .form-textarea{
 	width: 90%;
-	height: 118px;
+	height: 140px;
 }
 
 .list{
@@ -874,7 +874,7 @@ html,body{
 
 input[type="submit"].form-submit{
 	float: right;
-	margin-right: 50px;
+	margin-right: 42px;
 	border-color:#F75035;
 	color: #F75035;
 }
