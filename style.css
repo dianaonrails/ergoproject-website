@@ -885,7 +885,7 @@ html,body{
 }
 
 .services__container .service-text{
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 14px;
 	text-align: left;
 	margin-top: 10px;
@@ -937,9 +937,16 @@ html,body{
 
 .list{
 	list-style: circle outside none;
-    padding: 10px 10px 10px 25px;
-	width: 70%;
+    padding: 0px 10px 10px 25px;
+	
 	margin: 0 auto;
+}
+
+.text-content{
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 10px;
+	margin-top: 20px;
 }
 
 input[type="submit"].form-submit{
